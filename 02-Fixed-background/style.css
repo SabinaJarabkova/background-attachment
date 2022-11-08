@@ -1,0 +1,29 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+	padding: 0 10%;
+	font: 24px/1.5 sans-serif;
+}
+
+.box {
+	height: 500px;
+	margin: 50px 0;
+	border: 1px dashed grey;
+	background-color: white;
+}
+
+/* ------------------------------------ */
+
+
+.box {
+	background-image: url(images/charlie.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.boxik {
+	height: 150px;
+	background-image: url(images/vysoke.jpg);
+}
